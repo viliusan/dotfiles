@@ -1,0 +1,8 @@
+.DS_Store
+*.swp
+*.bak
+zed/.config/zed/.tmp*
+zed/.config/zed/conversations/
+zed/.config/zed/embeddings/
+zed/.config/zed/prompts/
+karabiner/.config/karabiner/automatic_backups/

@@ -1,0 +1,99 @@
+{
+  "cli_default_open_behavior": "new_window",
+  "outline_panel": {
+    "dock": "left",
+  },
+  "git_panel": {
+    "dock": "left",
+  },
+  "edit_predictions": {
+    "provider": "copilot",
+  },
+  "languages": {
+    "TypeScript": {
+      "show_edit_predictions": true,
+    },
+    "Python": {
+      "language_servers": ["pylsp"],
+      "format_on_save": "on",
+    },
+    "Go": {
+      "formatter": "language_server",
+    },
+    "C": {
+      "formatter": "language_server",
+    },
+    "C++": {
+      "formatter": "language_server",
+    },
+  },
+  "show_edit_predictions": false,
+  "icon_theme": "VSCode Icons for Zed (Dark NestJS)",
+  "agent": {
+    "dock": "right",
+    "tool_permissions": {
+      "default": "allow",
+    },
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4o",
+    },
+  },
+  "collaboration_panel": {
+    "dock": "right",
+  },
+  "theme": "Gruvbox Dark Soft",
+  "features": {
+    "copilot": true,
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "allowed": true,
+  },
+  "vim_mode": true,
+  "buffer_font_family": "CommitMono",
+  "ui_font_family": "CommitMono",
+  "ui_font_size": 16,
+  "buffer_font_size": 14.0,
+  "project_panel": {
+    "dock": "left",
+    "default_width": 200,
+  },
+  "show_wrap_guides": true,
+  "wrap_guides": [120],
+  "relative_line_numbers": "enabled",
+  "line_indicator_format": "short",
+  "buffer_font_features": {
+    "calt": false,
+  },
+  "current_line_highlight": "gutter",
+  "cursor_blink": false,
+  "tabs": {
+    "file_icons": true,
+  },
+  "colorize_brackets": true,
+  "format_on_save": "on",
+  "language_servers": ["!typescript-language-server", "..."],
+  "lsp": {
+    "biome": {
+      "settings": {
+        "require_config_file": true,
+      },
+    },
+    "pylsp": {
+      "settings": {
+        "python": {
+          "pythonPath": "./venv/bin/python",
+        },
+      },
+    },
+  },
+  "formatter": "prettier",
+  "code_actions_on_format": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.biome": true,
+    "source.organizeImports.biome": true,
+    "source.organizeImports.eslint": true,
+  },
+}
